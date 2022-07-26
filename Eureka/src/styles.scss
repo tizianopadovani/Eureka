@@ -10,13 +10,12 @@ body{
   h1, h2, h3, h4, h5, h6{
     margin: 0;
   }
-  i {
-    cursor: pointer;
-  }
+
 }
 
 #page1{
-  background: $orange url("assets/section1_bg.svg") no-repeat center;
+
+  background: $orange url("assets/subtle-prism.svg") no-repeat center;
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -24,6 +23,9 @@ body{
   align-items: center;
   text-align: center;
   min-height: 100vh;
+  p{
+    font-size: 25px;
+  }
   img{
     width: 200px;
   }
@@ -40,22 +42,72 @@ body{
       font-weight: 700;
     }
   }
-  .scroll-arrow {
-    animation: bounce 0.4s ease-in-out 0s infinite alternate;
-    margin-bottom: 8px;
-  }
 
-  @keyframes bounce{
-    from{transform: translateY(-20%)}
-    to{transform: translateY(0)}
-  }
+
+
 }
 
 #page2{
+  background: $orange url("assets/subtle-prism.svg") no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   min-height: 100vh;
+  p{
+    font-size: 30px;
+  }
+  h1{
+    padding-top: 8rem;
+  }
+
 }
 
 #page3{
+  background: $orange url("assets/subtle-prism.svg") no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   min-height: 100vh;
+  h1{
+    padding-top: 8rem;
+  }
+  p{
+    font-size: 30px;
+  }
+}
+#page4{
+  background: $orange url("assets/subtle-prism.svg") no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  h1{
+    padding-top: 8rem;
+  }
+  p{
+    font-size: 27px;
+    padding: 0 3rem;
+  }
+}
+.scroll-arrow {
+  animation: bounce 0.4s ease-in-out 0s infinite alternate;
+  margin-bottom: 8px;
+}
+
+i {
+  cursor: pointer;
+}
+@keyframes bounce{
+  from{transform: translateY(-20%)}
+  to{transform: translateY(0)}
 }
 

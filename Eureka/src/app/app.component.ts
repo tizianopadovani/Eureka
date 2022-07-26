@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Eureka';
 
+
   scroll(el: HTMLElement) {
       el.scrollIntoView({behavior: "smooth"});
   }
