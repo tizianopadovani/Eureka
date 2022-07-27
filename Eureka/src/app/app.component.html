@@ -1,7 +1,7 @@
 
 <!-- Page 1-->
 
-<div id="page1">
+<div id="page1" #page1>
   <div></div>
   <div>
     <img src="assets/logo.png"/>
@@ -16,6 +16,9 @@
 <!-- Page 2-->
 
 <div id="page2" #page2>
+  <div class="scroll-arrow">
+    <i class="fa fa-long-arrow-up fa-3x" aria-hidden="true" (click)="scroll(page1)"></i>
+  </div>
   <h1>Ottimizzazione dei processi di learning, forniamo servizi alle imprese</h1>
   <div>
      <p>    Siamo impegnati da ormai dieci anni nel fornire alle imprese servizi funzionali per ottimizzare la loro idea di business.
@@ -32,6 +35,9 @@
 <!-- Page 3-->
 
 <div id="page3" #page3>
+  <div class="scroll-arrow">
+    <i class="fa fa-long-arrow-up fa-3x" aria-hidden="true" (click)="scroll(page2)"></i>
+  </div>
   <h1>Ottimizzazione dei processi di learning, forniamo servizi alle imprese</h1>
   <p> Ciò ci permette di interfacciarci prima con le aziende e poter proporre prima i discenti e chiedere
     alle aziende partner su quali skills il discente può essere formato.
@@ -48,6 +54,9 @@
 <!--Grafico-->
 
 <div id="grafico" #grafico>
+  <div class="scroll-arrow">
+  <i class="fa fa-long-arrow-up fa-3x" aria-hidden="true" (click)="scroll(page3)"></i>
+</div>
   <img src="assets/grafico.png">
   <div class="scroll-arrow">
     <i class="fa fa-long-arrow-down fa-3x" aria-hidden="true" (click)="scroll(page4)"></i>
@@ -57,6 +66,9 @@
 <!--Page 4-->
 
 <div id="page4" #page4>
+  <div class="scroll-arrow">
+    <i class="fa fa-long-arrow-up fa-3x" aria-hidden="true" (click)="scroll(grafico)"></i>
+  </div>
   <h1>Ottimizzazione dei processi di learning, forniamo servizi alle imprese</h1>
   <p>
     Il costo della formazione viene così ammortizzato, in quanto Unikey ha oneri relativi solo al primo segmento
