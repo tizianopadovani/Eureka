@@ -80,6 +80,20 @@ body{
     font-size: 30px;
   }
 }
+
+#grafico{
+  background: $orange url("assets/subtle-prism.svg") no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  img{
+    width: 50%;
+  }
+}
 #page4{
   background: $orange url("assets/subtle-prism.svg") no-repeat center;
   background-size: cover;
